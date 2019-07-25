@@ -1,0 +1,20 @@
+language: rust
+
+os:
+  - linux
+
+rust:
+  - stable
+  - nightly
+
+branches:
+  only:
+  - master
+
+before_install:
+  # Check how much space we've got on this machine.
+  - df -h
+
+after_script:
+  # Check how much free disk space left after the build
+  - df -h

@@ -489,7 +489,6 @@ dependencies = [
  "srml-system 2.0.0 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)",
  "srml-timestamp 2.0.0 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)",
  "substrate-primitives 2.0.0 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)",
- "substrate-wasm-builder-runner 1.0.1 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)",
 ]
 
 [[package]]
@@ -1197,11 +1196,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "substrate-wasm-builder-runner"
-version = "1.0.1"
-source = "git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97#6dc833c42ebb89a2684ed04be4689164eb59ca97"
-
-[[package]]
 name = "subtle"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1498,7 +1492,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum substrate-primitives 2.0.0 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)" = "<none>"
 "checksum substrate-state-machine 2.0.0 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)" = "<none>"
 "checksum substrate-trie 2.0.0 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)" = "<none>"
-"checksum substrate-wasm-builder-runner 1.0.1 (git+https://github.com/paritytech/substrate.git?rev=6dc833c42ebb89a2684ed04be4689164eb59ca97)" = "<none>"
 "checksum subtle 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "2d67a5a62ba6e01cb2192ff309324cb4875d0c451d55fe2319433abe7a05a8ee"
 "checksum subtle 2.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "01dca13cf6c3b179864ab3292bd794e757618d35a7766b7c46050c614ba00829"
 "checksum syn 0.15.39 (registry+https://github.com/rust-lang/crates.io-index)" = "b4d960b829a55e56db167e861ddb43602c003c7be0bee1d345021703fac2fb7c"
